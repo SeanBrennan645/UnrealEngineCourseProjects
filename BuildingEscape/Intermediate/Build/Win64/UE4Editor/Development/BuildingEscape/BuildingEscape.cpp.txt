@@ -1,2 +1,0 @@
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\BuildingEscape\Source\BuildingEscape\BuildingEscape.h
