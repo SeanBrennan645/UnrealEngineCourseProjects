@@ -20,13 +20,14 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	/*float MyFloat = 90.0f;
+	InitialYaw = GetOwner()->GetActorRotation().Yaw;
+	CurrentYaw = InitialYaw;
+	TargetYaw += InitialYaw;
 
-	FRotator CurrentRotation = GetOwner()->GetActorRotation();
-	CurrentRotation.Yaw = MyFloat;
-	
-	GetOwner()->SetActorRotation(CurrentRotation);*/
-	
+	if (!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Actor %s has a undeclared pressure plate!"), *GetOwner()->GetName());
+	}
 }
 
 
@@ -34,10 +35,16 @@ void UOpenDoor::BeginPlay()
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	float CurrentYaw = GetOwner()->GetActorRotation().Yaw;
-	FRotator OpenDoor(0.0f, TargetYaw, 0.0f);
-	OpenDoor.Yaw = FMath::FInterpTo(CurrentYaw, TargetYaw, DeltaTime, 2);
-	GetOwner()->SetActorRotation(OpenDoor);
+	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpens))
+	{
+		OpenDoorFunct(DeltaTime);
+	}
 }
 
+void UOpenDoor::OpenDoorFunct(float DeltaTime)
+{
+	CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, DeltaTime * 1.0f);
+	FRotator DoorRotation = GetOwner()->GetActorRotation();
+	DoorRotation.Yaw = CurrentYaw;
+	GetOwner()->SetActorRotation(DoorRotation);
+}
