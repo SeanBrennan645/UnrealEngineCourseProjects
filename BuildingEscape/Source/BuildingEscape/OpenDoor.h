@@ -26,10 +26,14 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void OpenDoorFunct(float DeltaTime);
 	void CloseDoorFunct(float DeltaTime);
+	float TotalMassOfActors() const;
 
 private:
 	float InitialYaw;
 	float CurrentYaw;
+
+	UPROPERTY(EditAnywhere)
+	float OpenMass = 50.0f;
 
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = 90.0f;
