@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Engine/World.h"
-#include "GameFramework/PlayerController.h"
 #include "OpenDoor.h"
+#include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -21,7 +21,7 @@ void UOpenDoor::BeginPlay()
 
 	InitialYaw = GetOwner()->GetActorRotation().Yaw;
 	CurrentYaw = InitialYaw;
-	TargetYaw += InitialYaw;
+	OpenAngle += InitialYaw;
 
 	if (!PressurePlate)
 	{
@@ -52,7 +52,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 void UOpenDoor::OpenDoorFunct(float DeltaTime)
 {
-	CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, DeltaTime * 1.0f);
+	CurrentYaw = FMath::Lerp(CurrentYaw, OpenAngle, DeltaTime * DoorOpenSpeed);
 	FRotator DoorRotation = GetOwner()->GetActorRotation();
 	DoorRotation.Yaw = CurrentYaw;
 	GetOwner()->SetActorRotation(DoorRotation);
@@ -60,7 +60,7 @@ void UOpenDoor::OpenDoorFunct(float DeltaTime)
 
 void UOpenDoor::CloseDoorFunct(float DeltaTime)
 {
-	CurrentYaw = FMath::Lerp(CurrentYaw, InitialYaw, DeltaTime * 1.5f);
+	CurrentYaw = FMath::Lerp(CurrentYaw, InitialYaw, DeltaTime * DoorCloseSpeed);
 	FRotator DoorRotation = GetOwner()->GetActorRotation();
 	DoorRotation.Yaw = CurrentYaw;
 	GetOwner()->SetActorRotation(DoorRotation);
