@@ -1,0 +1,87 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Actors\\\\ProjectileBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Actors\\\\ProjectileBase.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Components\\\\HealthComponent.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Components\\\\HealthComponent.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\GameModes\\\\TankGameModeBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\GameModes\\\\TankGameModeBase.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnBase.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnTank.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnTank.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnTurret.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnTurret.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\PlayerControllers\\\\PlayerControllerBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\PlayerControllers\\\\PlayerControllerBase.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sean Brennan\\\\UnrealEngineCourse\\\\UnrealEngineCourseProjects\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.h",
+		"command": "cl.exe @\"C:\\Users\\Sean Brennan\\UnrealEngineCourse\\UnrealEngineCourseProjects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]
