@@ -1,3 +1,0 @@
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Source\ToonTanks\PlayerControllers\PlayerControllerBase.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PlayerControllerBase.generated.h

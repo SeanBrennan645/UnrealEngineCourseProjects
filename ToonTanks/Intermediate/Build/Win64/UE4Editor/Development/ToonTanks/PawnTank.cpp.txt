@@ -1,9 +1,0 @@
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Source\ToonTanks\Pawns\PawnTank.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Source\ToonTanks\Pawns\PawnBase.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnBase.generated.h
-C:\Users\Sean Brennan\UnrealEngineCourse\UnrealEngineCourseProjects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnTank.generated.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
