@@ -1,0 +1,3 @@
+As the starter project for this section was too large for github 
+this folder will only contain relevant code files 
+and screen recordings of the finsihed section
